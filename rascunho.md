@@ -46,7 +46,6 @@ Regulação deveria exigir transparência, educação no comportamento, limites 
 A IA deve ser entendida como ferramenta matemática, e o debate deve focar riscos sociais, vulnerabilidades humanas e necessidade de regulação.
 
 
-Artigos relacionados 
 
 
 

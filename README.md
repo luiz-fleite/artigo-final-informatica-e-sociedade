@@ -1,1 +1,1 @@
-# Dissonância Cognitiva na Era dos Sistemas Autônomos: Do Efeito ELIZA à Proposta de Constitutional AI Colaborativa 
+# Dissonância Cognitiva na Era dos Sistemas Autônomos: Do Efeito ELIZA à Constitutional AI Colaborativa 

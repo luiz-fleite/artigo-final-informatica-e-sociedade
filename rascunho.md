@@ -46,11 +46,6 @@ Regulação deveria exigir transparência, educação no comportamento, limites 
 A IA deve ser entendida como ferramenta matemática, e o debate deve focar riscos sociais, vulnerabilidades humanas e necessidade de regulação.
 
 
-
-
-Estrutura do artigo (rascunho) 
-Nessa parte a gente vai juntando as nossas ideias para construir o artigo propriamente dito, podendo possuir mais de um aspecto dentro do mesmo tema, assim como os outros artigos que lemos para fazer a resenha. Depois passa para o LaTeX. 
-Resumo/Abstract 
 Introdução 
 
 Artigos relacionados 

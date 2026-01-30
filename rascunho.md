@@ -47,7 +47,6 @@ A IA deve ser entendida como ferramenta matemática, e o debate deve focar risco
 
 
 Artigos relacionados 
-Citar artigos que também avaliam impactos e soluções que usamos para nos inspirar a fazer esse 
 
 
 

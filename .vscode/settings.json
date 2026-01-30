@@ -83,7 +83,7 @@
     // Habilita a extensão para esta pasta
     "gitdoc.enabled": true,
     // Faz commit automático a cada salvamento de arquivo (estilo Google Docs)
-    "gitdoc.autoCommitDelay": 2,
+    "gitdoc.autoCommitDelay": 0,
     // Faz push automático para o repositório remoto a cada 60 segundos (para não floodar a rede)
     "gitdoc.autoPush": "afterDelay",
     "gitdoc.pushDelay": 60,

@@ -85,10 +85,10 @@
     // --- Configuração GitDoc (Auto-commit & Backup) ---
     // Habilita a extensão para esta pasta
     "gitdoc.enabled": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
     "gitdoc.autoCommit": "afterDelay",
     "gitdoc.autoCommitDelay": 1000,
     "gitdoc.autoPush": "afterDelay",
-    "gitdoc.autoPushDelay": 30000,
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000
+    "gitdoc.autoPushDelay": 30000
 }

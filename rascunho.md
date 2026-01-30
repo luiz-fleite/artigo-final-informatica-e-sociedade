@@ -32,7 +32,6 @@ Especificação do tema:
 Sistemas de automação cognitiva: LLM’s, reconhecimento de imagem, geração de imagem, reconhecimento de áudio, geração de áudio (música também) 
 Sistemas autônomos: carros autônomos, robôs de entrega (drones, robôs terrestres), sistemas de vigilância inteligentes (reconhecimento e rastreamento de alvos).
 
-
 Psicologia com LLM 
 Sistema: LLM 
 Impacto: Desenvolvimento de diversos distúrbios psicológicos que podem levar à depressão, ansiedade, e outros problemas mais graves como o suicídio.

@@ -86,7 +86,5 @@
     "gitdoc.autoCommitDelay": 0,
     // Faz push automático para o repositório remoto a cada 60 segundos (para não floodar a rede)
     "gitdoc.autoPush": "afterDelay",
-    "gitdoc.pushDelay": 60,
-    // Mensagem padrão para commits automáticos
-    "gitdoc.commitMessageFormat": "WIP: Auto-save"
+    "gitdoc.pushDelay": 60
 }

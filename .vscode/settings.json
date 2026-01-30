@@ -88,5 +88,5 @@
     "gitdoc.autoPush": "afterDelay",
     "gitdoc.pushDelay": 60,
     // Mensagem padrão para commits automáticos
-    "gitdoc.commitMessageFormat": "WIP: salvamento automático ${timestamp}"
+    "gitdoc.commitMessageFormat": "WIP: Auto-save"
 }

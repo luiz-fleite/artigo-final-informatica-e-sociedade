@@ -45,7 +45,7 @@ Proposta de criação de sistemas open source para realizar Instruction Tuning d
 Regulação deveria exigir transparência, educação no comportamento, limites claros e regras específicas para usos artísticos.
 A IA deve ser entendida como ferramenta matemática, e o debate deve focar riscos sociais, vulnerabilidades humanas e necessidade de regulação.
 
-Italo vai ajudar acima
+
 
 
 Estrutura do artigo (rascunho) 

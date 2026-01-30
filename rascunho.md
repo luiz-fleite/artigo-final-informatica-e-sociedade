@@ -1,6 +1,3 @@
-testando 
-
-
 TEMA: O impacto social das novas tecnologias na era da automação cognitiva e dos sistemas autônomos.
 
 Especificação do tema: 

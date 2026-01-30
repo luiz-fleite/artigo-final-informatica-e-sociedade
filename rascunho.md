@@ -32,8 +32,7 @@ Especificação do tema:
 Sistemas de automação cognitiva: LLM’s, reconhecimento de imagem, geração de imagem, reconhecimento de áudio, geração de áudio (música também) 
 Sistemas autônomos: carros autônomos, robôs de entrega (drones, robôs terrestres), sistemas de vigilância inteligentes (reconhecimento e rastreamento de alvos).
 
-Nosso objetivo em outras palavras: discorrer sobre os impactos sociais de uma ou mais novas tecnologias (últimos 2 anos aprox.) que usam sistemas de automação cognitiva. 
-Luiz
+
 
 1ª Sugestão: Psicologia com LLM 
 Sistema: LLM 

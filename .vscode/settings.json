@@ -1,4 +1,7 @@
 {
+    // Habilita quebra de linha visual (soft wrap) para caber na tela
+    "editor.wordWrap": "on",
+
     // LaTeX Workshop - Configuração para usar Tectonic
     "latex-workshop.latex.recipes": [
         {

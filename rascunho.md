@@ -33,8 +33,7 @@ Sistemas de automação cognitiva: LLM’s, reconhecimento de imagem, geração 
 Sistemas autônomos: carros autônomos, robôs de entrega (drones, robôs terrestres), sistemas de vigilância inteligentes (reconhecimento e rastreamento de alvos).
 
 
-
-1ª Sugestão: Psicologia com LLM 
+Psicologia com LLM 
 Sistema: LLM 
 Impacto: Desenvolvimento de diversos distúrbios psicológicos que podem levar à depressão, ansiedade, e outros problemas mais graves como o suicídio.
 Estudo dos impactos sociais de novas tecnologias dos últimos dois anos, especialmente sistemas de automação cognitiva.

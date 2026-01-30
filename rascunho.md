@@ -56,9 +56,7 @@ A IA deve ser entendida como ferramenta matemática, e o debate deve focar risco
 
 
 
-Soluções propostas 
-Projetos open source de edição em linguagem humana natural da memória de longa duração para agentes de IA, criando uma plataforma de instruction tuning orientada à personas para agentes de IA, promovendo a criação aberta de conjuntos de leis e diretrizes (constituições) para agentes de IA voltados para abarcar as mais variadas personas, levando em consideração também personas que tem razão moral e ética de existir. Grandes benefícios em acurácia do modelo e controle por usuários não técnicos. 
-citar embasamento principalmente na técnica de Constitutional AI da Anthropic 
+
 
 
 

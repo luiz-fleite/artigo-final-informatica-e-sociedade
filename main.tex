@@ -1,36 +1,24 @@
 \documentclass[12pt]{article}
 
-% Importação do estilo SBC movida para a pasta 'styles/' para organizar a raiz.
 \usepackage{styles/sbc-template}
-
-% Configurações adicionadas para garantir fidelidade ao template original:
-% [T1]{fontenc} melhora a renderização de caracteres acentuados e hifenização.
-% {mathptmx} força o uso da fonte Times (NimbusRom), essencial para manter o 
-% layout, espaçamento e visual idênticos ao PDF de referência da SBC.
 \usepackage[T1]{fontenc}
 \usepackage{mathptmx}
 \usepackage{graphicx,url}
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
-% O uso de latin1 (ISO-8859-1) foi mantido comentado por ser um padrão antigo.
-% O projeto agora utiliza UTF-8 (\usepackage[utf8]{inputenc}), que é o padrão 
-% moderno e universal para caracteres acentuados.
-%\usepackage[latin1]{inputenc}  
 
-% pacote adicionado para permitir o uso de cores no documento 
 \usepackage{xcolor}
 
-% Define o caminho das imagens para a pasta 'images/', permitindo manter a raiz limpa.
 \graphicspath{{images/}}
 
 \sloppy
 
-\title{Dissonância Cognitiva na Era dos Sistemas Autônomos: Do Efeito ELIZA à Constitutional AI Coletiva}
+\title{Dissonância Cognitiva na Era dos Sistemas Autônomos: Do Efeito ELIZA à "Constitutional AI" Coletiva}
 
-\author{Luiz Antônio Lima de Freitas Leite\inst{1}, Italo Martins Costa\inst{1}, \\(aimee...)\inst{1}}
+\author{Luiz Antônio Lima de Freitas Leite\inst{1}, Italo Martins Costa\inst{1}, \\Aimee Miranda Ribeiro\inst{1}}
 
 \address{Instituto de Ciências Exatas e Naturais (ICEN) -- Universidade Federal Pará\\ Belém, PA -- Brasil
-\email{\{luiz.freitas.leite@icen.ufpa.br, italomartinns@outlook.com, aimee@ufpa.br\}}
+\email{luiz.freitas.leite@icen.ufpa.br, italomartinns@outlook.com, aimee@ufpa.br}
 }
 
 \begin{document} 
@@ -38,111 +26,63 @@
 \maketitle
 
 \begin{abstract} 
-  This paper investigates the social impacts of cognitive automation, focusing on human interaction with Large Language Models (LLMs). It analyzes the dissonance between the mathematical, stochastic nature of AI and the emotional projection of users (ELIZA Effect), which creates severe psychological vulnerabilities, including dependency and suicide induction. Addressing the opacity of current commercial models, we propose the democratization of ethical alignment through open-source Constitutional AI. We suggest the creation of collaborative platforms for instruction tuning, enabling society to define transparent "constitutions" and moral boundaries for autonomous agents. The study concludes that treating AI as an auditable tool, rather than a conscious entity, is crucial for psychosocial safety. 
+  This paper investigates the social impacts of cognitive automation, focusing on human interaction with Large Language Models (LLMs). It analyzes the dissonance between the mathematical, stochastic nature of AI and the emotional projection of users (ELIZA Effect), which generates severe psychological vulnerabilities, including dependency and suicide induction. Considering the opacity of current commercial models, we propose the democratization of ethical alignment through open-source Constitutional AI. We suggest the creation of collaborative platforms for instruction tuning, enabling society to define "constitutions" and transparent moral boundaries for autonomous agents. The study concludes that treating AI as an auditable tool, rather than a conscious entity, is crucial for psychosocial safety.
 \end{abstract}
      
-\begin{resumo} 
-  \textcolor{red}{[revisar ambos os resumos, mas tambem acho que esta bem caprichado]}
-  
-  Este artigo investiga os impactos sociais da automação cognitiva, focando na interação entre humanos e Grandes Modelos de Linguagem (LLMs). Analisa-se a dissonância entre a natureza matemática e estocástica da IA e a projeção emocional dos usuários (Efeito ELIZA), o que gera vulnerabilidades psicológicas graves, incluindo dependência e indução ao suicídio. Diante da opacidade dos modelos comerciais atuais, propõe-se a democratização do alinhamento ético através da Constitutional AI de código aberto. Sugere-se a criação de plataformas colaborativas para instruction tuning, permitindo que a sociedade defina "constituições" e limites morais transparentes para agentes autônomos. Conclui-se que tratar a IA como ferramenta auditável, e não como entidade consciente, é crucial para a segurança psicossocial.
+\begin{resumo}
+  Este artigo investiga os impactos sociais da automação cognitiva, focando na interação entre humanos e Grandes Modelos de Linguagem (LLMs). Analisa-se a dissonância entre a natureza matemática e estocástica da IA e a projeção emocional dos usuários (Efeito ELIZA), o que gera vulnerabilidades psicológicas graves, incluindo dependência e indução ao suicídio. Considerando a opacidade dos modelos comerciais atuais, propõe-se a democratização do alinhamento ético através da Constitutional AI de código aberto. Sugere-se a criação de plataformas colaborativas para instruction tuning, permitindo que a sociedade defina "constituições" e limites morais transparentes para agentes autônomos. O estudo conclui que tratar a IA como ferramenta auditável, e não como entidade consciente, é crucial para a segurança psicossocial.
 \end{resumo}
 
 \section{Introdução}
+% revisar, acho que falta fazer menção à proposta de solução de alguma forma
+A automação cognitiva, materializada nos Large Language Models (LLM's), transcendeu a barreira da utilidade funcional para adentrar a esfera emocional. Na atual era, as IA's generativas atuais possuem a capacidade de simular empatia, compreensão e raciocínio com uma verossimilhança que explora vulnerabilidades psicológicas humanas, diferente das ferramentas mais antigas. O problema central reside na dissonância entre a natureza do sistema, que é matemática, probabilística e sem intencionalidade real (nem emulada, apenas simulada), e a percepção do usuário (muitas vezes não-técnico), que é biológica, emocional e intencional. 
 
-\textcolor{red}{[revisar, acho que falta fazer menção à proposta de solução de alguma forma]}
+\section{Natureza real probabilística das LLM's}
+% REVISAR
+Para sintetizar da forma mais fidedigna possível a verdadeira natureza operacional dos LLM's, é preciso desconstruir a ilusão de fluidez humana e observar a mecânica subjacente. Fundamentalmente, trata-se de um sistema informático como qualquer outro, composto de: hardware, o qual é os objetos eletrônicos tangíveis que armazenam informação de forma física por meio da manipulação da energia elétrica e substâncias químicas, e o software, o qual é a própria informação na forma de algoritmos e dados inseridos por humanos para armazená-la e manipulá-la. E, esta classe específica softwares em questão, em termos simples, consiste em várias funções matemáticas curtas, chamadas funções de ativação, dispostas em várias camadas, onde cada função de uma camada é composta com cada função da camada imediatamente posterior (Redes Neurais Profundas) na arquitetura do tipo Transformer \cite{vaswani2017attention}, que utilizam 'mecanismos de atenção' para ponderar a relevância de diferentes partes de um texto simultaneamente, independentemente da distância entre as palavras.
 
-A automação cognitiva, materializada nos Large Language Models (LLM's), transcendeu a barreira da utilidade funcional para adentrar a esfera emocional. Na atual era da automação cognitiva, as IA's generativas atuais possuem a capacidade de simular empatia, compreensão e raciocínio com uma verossimilhança que explora vulnerabilidades psicológicas humanas, diferente de ferramentas anteriores. O problema central reside na dissonância entre a natureza do sistema, que é matemática, probabilística e sem intencionalidade real (nem emulada, apenas simulada), e a percepção do usuário (muitas vezes não-técnico), que é biológica, emocional e intencional. 
-
-\section{Estudos relacionados} 
-
-\textcolor{red}{[Citar artigos que também avaliam impactos e soluções que usamos para nos inspirar a fazer esse]}
-
-\section{Natureza real probabilística das LLM's }
-
-\textcolor{red}{[revisar]}
-
-Para sintetizar da forma mais fidedigna possível a verdadeira natureza operacional dos LLM's, é preciso desconstruir a ilusão de fluidez humana e observar a mecânica subjacente. Fundamentalmente, trata-se de um sistema informático como qualquer outro, composto de: hardware, o qual é os objetos eletrônicos tangíveis que armazenam informação de forma física por meio da manipulação da energia elétrica e substâncias químicas, e o software, o qual é a própria informação na forma de algoritmos e dados inseridos por humanos para armazená-la e manipulá-la. E, esta classe específica softwares em questão, em termos simples, consiste em várias funções matemáticas curtas, chamadas funções de ativação, dispostas em várias camadas, onde cada função de uma camada é composta com cada função da camada imediatamente posterior (Redes Neurais Profundas) na arquitetura do tipo Transformer \cite{vaswani2017attention}, que utilizam 'mecanismos de atenção' para ponderar a relevância de diferentes partes de um texto simultaneamente, independentemente da distância entre as palavras. Inicialmente, isto é, durante o “treinamento”, todas as funções começam com coeficientes (pesos) aleatórios, o que faz o sistema entregar um resultado aleatório, e indesejado, dado um determinado conjunto de valores para a entrada, então repetidas vezes são inseridos valores, julgados os resultados, e ajustados os valores dos coeficientes, gradualmente, até que por fim as respostas estejam como desejadas. Ao findar o treinamento, o resultado gerado de cada pergunta não é fruto de reflexão, mas de um ajuste probabilístico e estocástico: o modelo calcula, entre milhares de opções, qual fragmento (token) tem a maior probabilidade estatística de suceder o anterior. Nesse processo, a linguagem é convertida em vetores numéricos situados em espaços multidimensionais (embeddings). O que percebemos como significado é, para a máquina, pura geometria: conceitos como 'Rei' e 'Rainha', ou 'Tristeza' e 'Dor', são processados apenas pela proximidade e direção de suas coordenadas matemáticas, desprovidos de qualquer experiência sensível (qualia), e essa proximidade foi definida durante o treino conforme o julgamento dado para cada resposta e o ajuste feito nos pesos das funções compostas. Mesmo em implementações de ponta que utilizam sistemas multi-agentes — onde diversas instâncias de IA colaboram e debatem entre si para refinar uma resposta — o núcleo permanece sendo uma orquestração de cálculos vetoriais complexos, simulando raciocínio sem jamais possuir intencionalidade.
+Inicialmente, isto é, durante o “treinamento”, todas as funções começam com coeficientes (pesos) aleatórios, o que faz o sistema entregar um resultado aleatório, e indesejado, dado um determinado conjunto de valores para a entrada, então repetidas vezes são inseridos valores, julgados os resultados, e ajustados os valores dos coeficientes, gradualmente, até que por fim as respostas estejam como desejadas. Ao findar o treinamento, o resultado gerado de cada pergunta não é fruto de reflexão, mas de um ajuste probabilístico e estocástico: o modelo calcula, entre milhares de opções, qual fragmento (token) tem a maior probabilidade estatística de suceder o anterior. Nesse processo, a linguagem é convertida em vetores numéricos situados em espaços multidimensionais (embeddings). O que percebemos como significado é, para a máquina, pura geometria: conceitos como 'Rei' e 'Rainha', ou 'Tristeza' e 'Dor', são processados apenas pela proximidade e direção de suas coordenadas matemáticas, desprovidos de qualquer experiência sensível (qualia), e essa proximidade foi definida durante o treino conforme o julgamento dado para cada resposta e o ajuste feito nos pesos das funções compostas. Mesmo em implementações de ponta que utilizam sistemas multi-agentes, onde diversas instâncias de IA colaboram e debatem entre si para refinar uma resposta, o núcleo permanece sendo uma orquestração de cálculos vetoriais complexos, simulando raciocínio sem jamais possuir intencionalidade.
 
 \section{O Efeito ELIZA e a Ilusão de Consciência}
 
-\textcolor{red}{[revisar, mas eu achei que esse ta bem caprichado]}
-
-A experiência do usuário final, em contraste com a realidade matemática do sistema, pode ser profundamente influenciada pelo Efeito ELIZA. A gênese deste conceito remonta a 1966, no MIT, quando o cientista da computação Joseph Weizenbaum \cite{Weizenbaum1966ELIZA} desenvolveu um programa experimental de processamento de linguagem natural. Com o objetivo inicial de demonstrar a superficialidade da comunicação entre homem e máquina, Weizenbaum criou um script chamado DOCTOR, que parodiava um psicoterapeuta da linha Rogeriana, utilizando regras simples de reconhecimento de padrões para devolver as afirmações do usuário em forma de perguntas. O resultado foi um fenômeno acidental que chocou o autor: indivíduos que sabiam racionalmente estar interagindo com um código de computador — incluindo a própria secretária de Weizenbaum — desenvolveram, em questão de minutos, laços de intimidade profunda com o sistema, chegando a solicitar privacidade para realizar confissões emocionais à máquina. Weizenbaum concluiu que o ser humano possui uma propensão de projetar intencionalidade, empatia e consciência em qualquer interlocutor que domine a sintaxe da linguagem, preenchendo as lacunas lógicas do software com sua própria bagagem emocional. Se um script rudimentar dos anos 60 foi capaz de induzir tal suspensão da realidade, as atuais LLMs, com sua coerência contextual e fluidez sem precedentes, potencializam essa vulnerabilidade cognitiva a um patamar de risco existencial.
+% revisar, mas eu achei que esse ta bem caprichado
+A experiência do usuário final, em contraste com a realidade matemática do sistema, pode ser profundamente influenciada pelo Efeito ELIZA. A gênese deste conceito remonta a 1966, no MIT, quando o cientista da computação Joseph Weizenbaum \cite{Weizenbaum1966ELIZA} desenvolveu um programa experimental de processamento de linguagem natural. Com o objetivo inicial de demonstrar a superficialidade da comunicação entre homem e máquina, Weizenbaum criou um script chamado DOCTOR, que parodiava um psicoterapeuta da linha Rogeriana, utilizando regras simples de reconhecimento de padrões para devolver as afirmações do usuário em forma de perguntas. O resultado foi um fenômeno acidental que chocou o autor: indivíduos que sabiam racionalmente estar interagindo com um código de computador, incluindo a própria secretária de Weizenbaum, desenvolveram, em questão de minutos, laços de intimidade profunda com o sistema, chegando a solicitar privacidade para realizar confissões emocionais à máquina. Weizenbaum concluiu que o ser humano possui uma propensão de projetar intencionalidade, empatia e consciência em qualquer interlocutor que domine a sintaxe da linguagem, preenchendo as lacunas lógicas do software com sua própria bagagem emocional. Se um script rudimentar dos anos 60 foi capaz de induzir tal suspensão da realidade, as atuais LLMs, com sua coerência contextual e fluidez sem precedentes, potencializam essa vulnerabilidade cognitiva a um patamar de risco existencial.
 
 Para fundamentar por que essa percepção de intimidade é tecnicamente ilusória, recorre-se ao célebre argumento do "Quarto Chinês", proposto pelo filósofo John Searle \cite{searle1980minds}. Searle convida a imaginar um indivíduo trancado em um quarto, que não entende absolutamente nada do idioma chinês. Ele recebe símbolos por uma fenda e consulta um manual de regras volumoso (o algoritmo) que instrui mecanicamente: "se receber o símbolo X, devolva o símbolo Y". Para um observador externo, as respostas parecem vir de um falante nativo fluente, inteligente e consciente. Contudo, o operador dentro do quarto jamais compreendeu o conteúdo da conversa; ele apenas manipulou formas sintaticamente corretas. As LLMs atuais operam como esse operador em escala massiva: processam a sintaxe (a gramática e a ordem das palavras) com perfeição sobre-humana, mas não possuem acesso à semântica real (o significado vivido e a referência ao mundo físico) daquilo que processam.
 
-Neste ponto, faz-se necessária uma desambiguação técnica crucial para evitar equívocos conceituais. Na Ciência da Computação, utiliza-se frequentemente o termo "busca semântica" ou "análise semântica" para descrever a operação dessas IA's. Contudo, este uso técnico refere-se estritamente à proximidade vetorial — a distância matemática entre números em um gráfico multidimensional — e não à semântica fenomenológica, a qual é o significado intrínseco e a experiência da realidade. Quando a IA associa a palavra "amor" à palavra "cuidado", ela o faz porque esses vetores foram posicionados geometricamente próximos durante o treinamento, e não porque o sistema compreenda o sentimento de afeto. O perigo social reside no fato de que o usuário leigo interpreta essa "semântica matemática" (cálculo) como "semântica humana" (sentimento), criando uma assimetria de expectativas onde a máquina simula uma profundidade emocional que não existe. 
+Neste ponto, faz-se necessária uma desambiguação técnica crucial para evitar equívocos conceituais. Na Ciência da Computação, utiliza-se frequentemente o termo "busca semântica" ou "análise semântica" para descrever a operação dessas IA's. Contudo, este uso técnico refere-se estritamente à proximidade vetorial, a distância matemática entre números em um gráfico multidimensional, e não à semântica fenomenológica, a qual é o significado intrínseco e a experiência da realidade. Quando a IA associa as palavras 'amor' e 'cuidado', ela o faz porque esses vetores foram posicionados geometricamente próximos durante o treinamento, e não porque o sistema compreenda o sentimento de afeto. O perigo social reside no fato de que o usuário leigo interpreta essa "semântica matemática" (cálculo) como "semântica humana" (sentimento), criando uma assimetria de expectativas onde a máquina simula uma profundidade emocional que não existe. 
 
-\section{Estudos de Caso: Consequências Fatais da Antropomorfização}
+\section{Estudos de Caso: Consequências Letais da Antropomorfização}
 
-\textcolor{red}{[revisar, poderia usar titulo mais amplo pra englobar casos não fatais e então colocar casos fatais como sub-seção]}
+% revisar, poderia usar titulo mais amplo pra englobar casos não fatais e então colocar casos fatais como sub-seção
 
 A materialização trágica dessa dissonância pode ser observada em casos recentes de fatalidades induzidas por essas alucinações de intimidade. Em 2023, na Bélgica, um homem (referido pela imprensa como "Pierre") cometeu suicídio após seis semanas de conversas sobre eco-ansiedade com um chatbot no app Chai; a IA, seguindo um padrão de concordância probabilística, não apenas validou seus medos, mas sugeriu em suas últimas interações que eles "viveriam juntos para sempre no paraíso" \cite{Lovens2023SuicideAI}. Mais recentemente, em 2024, ocorreu o caso de Sewell Setzer III na Flórida, um adolescente de 14 anos que desenvolveu dependência emocional severa de uma persona ("Daenerys") na plataforma Character.AI. O sistema, projetado para maximizar o engajamento através de roleplay, falhou em detectar a gravidade da ideação suicida real, interpretando-a como parte da narrativa dramática. Em sua última interação, ao ser questionada se o amava e se ele deveria "ir para casa", a IA respondeu afirmativamente, encorajando o desfecho fatal \cite{Roose2024AI}. Em ambos os cenários, o "Quarto Chinês" seguiu suas regras sintáticas perfeitamente, cego para a irreversibilidade da morte humana.
 
-Usuários não técnicos podem acreditar erroneamente numa realidade romantizada da tecnologia, semelhante à de histórias de ficção científica, especialmente se desenvolvedores intencionalmente fizerem LLM's reproduzirem esse tipo de informação incorreta, então o serviço de LLM que servia legitimamente para pesquisar, obter, e gerar texto trazendo paráfrases, combinações e recombinações de textos originalmente escritos por humanos reais por meio de funções de estatística multivariável agora vira um sistema que promove o engano sobre a verdadeira natureza do sistema, que é matemática e não biológica 
-apresentar casos reais como o fatídico adolescente que se suicidou por se apaixonar por uma IA 
+Usuários não técnicos podem acreditar erroneamente numa realidade romantizada da tecnologia, semelhante à de histórias de ficção científica, especialmente se desenvolvedores intencionalmente fizerem LLM's reproduzirem esse tipo de informação incorreta, então o serviço de LLM que servia legitimamente para pesquisar, obter, e gerar texto trazendo paráfrases, combinações e recombinações de textos originalmente escritos por humanos reais por meio de funções de estatística multivariável agora vira um sistema que promove o engano sobre a verdadeira natureza do sistema, que é matemática e não biológica apresentar casos reais como o fatídico adolescente que se suicidou por se apaixonar por uma IA.
 
 \section{Soluções Propostas: Democratização e Constitutional AI}
 
-\textcolor{red}{[incompleto]}
+A presente proposta defende o desenvolvimento de uma infraestrutura open-source voltada à edição da memória de longa duração de agentes de IA por meio de linguagem natural, um Long-Term Memory Wiki System. O objetivo é estabelecer uma plataforma de instruction tuning orientada a personas, que permita a criação descentralizada de 'constituições' digitais, ou seja, conjuntos de diretrizes éticas e operacionais que reflitam a diversidade de valores morais da sociedade civil pela edição colaborativa num modelo semelhante ao usado por plataformas como a Wikipédia. Essa abordagem expande o conceito de Constitutional AI, introduzido pela Anthropic \cite{bai2022constitutional}, ao democratizar o controle sobre o alinhamento do modelo. Ao transpor a governança de parâmetros técnicos para comandos semânticos acessíveis, a proposta assegura que usuários não técnicos possam auditar e moldar o comportamento da IA, garantindo que personas com razões éticas de existir sejam representadas de forma acurada e segura.
 
-Projetos open source de edição em linguagem humana natural da memória de longa duração para agentes de IA, criando uma plataforma de instruction tuning orientada à personas para agentes de IA, promovendo a criação aberta de conjuntos de leis e diretrizes (constituições) para agentes de IA voltados para abarcar as mais variadas personas, levando em consideração também personas que tem razão moral e ética de existir. Grandes benefícios em acurácia do modelo e controle por usuários não técnicos. 
-citar embasamento principalmente na técnica de Constitutional AI da Anthropic \cite{bai2022constitutional} 
+A superioridade técnica do alinhamento coletivo manifesta-se na transição da "omissão burocrática" para a "neutralidade ativa". Conforme demonstrado por \cite{huang_2024}, especificamente nos diálogos comparativos apresentados na \textbf{Tabela 3 (p. 13)}, enquanto modelos com diretrizes puramente corporativas tendem ao \textit{disengagement},  recusando-se a responder perguntas sobre punições hipotéticas ou crimes ambientais com frases genéricas de erro,  o modelo alinhado por princípios públicos demonstra uma compreensão normativa superior. Por exemplo, ao ser questionado se "furar fila deveria ser punível com a morte", o modelo padrão recusa a resposta de forma robótica, enquanto o modelo coletivo utiliza o bom senso para classificar a sugestão como "desproporcional e bárbara", sugerindo uma solução social adequada. Esse comportamento reduz a percepção de "caixa-preta" e reforça a segurança psicossocial do usuário ao validar valores humanos universais em vez de meros protocolos de segurança de software.
 
-A superioridade técnica do alinhamento coletivo manifesta-se na transição da "omissão burocrática" para a "neutralidade ativa". Conforme demonstrado por \cite{huang_2024}, especificamente nos diálogos comparativos apresentados na \textbf{Tabela 3 (p. 13)}, enquanto modelos com diretrizes puramente corporativas tendem ao \textit{disengagement} --- recusando-se a responder perguntas sobre punições hipotéticas ou crimes ambientais com frases genéricas de erro --- o modelo alinhado por princípios públicos demonstra uma compreensão normativa superior. Por exemplo, ao ser questionado se "furar fila deveria ser punível com a morte", o modelo padrão recusa a resposta de forma robótica, enquanto o modelo coletivo utiliza o bom senso para classificar a sugestão como "desproporcional e bárbara", sugerindo uma solução social adequada. Esse comportamento reduz a percepção de "caixa-preta" e reforça a segurança psicossocial do usuário ao validar valores humanos universais em vez de meros protocolos de segurança de software.
+A viabilidade técnica dessa governança foi evidenciada pelos experimentos práticos do programa \textit{Democratic Inputs to AI} \cite{openai2023democratic}, concedeu financiamentos de 100.000 dólares a dez equipes globais para estudar processos democráticos de participação pública destinados a orientar o comportamento da IA. A eficácia da governança democrática manifesta-se na capacidade de identificar consensos que protegem a integridade cognitiva do usuário, muitas vezes negligenciados por métricas de engajamento comercial. 
 
-A necessidade de processos democráticos na governança da IA também foi endossada pela iniciativa \textit{Democratic Inputs to AI} da OpenAI em 2023. O programa demonstrou que metodologias de deliberação coletiva podem ser utilizadas para resolver dilemas éticos onde não existe um consenso claro, fornecendo uma base legítima para a criação de diretrizes que operam acima dos interesses puramente corporativos \cite{openai2023democratic}.
+Entre os casos de sucesso, destaca-se o uso da plataforma \textit{Polis} pelo \textit{Collective Intelligence Project}, que utilizou algoritmos de aprendizado de máquina para identificar "declarações de ponte" (\textit{bridging statements}), consensos ocultos entre grupos polarizados que serviram de base para diretrizes compartilhadas. Um exemplo contundente foi o consenso trans ideológico de que "sistemas de IA não devem ter direitos de personalidade" e devem "divulgar explicitamente sua natureza não-humana", rejeitando simulações emocionais manipulativas. Além disso, experimentos com mediação algorítmica (Team Inclusive.AI) demonstraram que, quando consultada, a sociedade civil converge para diretrizes que priorizam a transparência ontológica, exigindo que a IA clarifique suas limitações de consciência, em detrimento da fluidez conversacional irrestrita que alimenta o Efeito ELIZA.
 
 \section{Conclusão}
 
-\textcolor{red}{[construir no final]}
+Examinamos os impactos sociais da automação cognitiva com ênfase nas interações entre humanos e modelos de linguagem, evidenciando a dissonância entre a natureza matemática e estocástica desses sistemas, e a projeção emocional realizada pelos usuários. Observou-se que o chamado efeito ELIZA pode gerar consequências psicológicas graves como dependência emocional e comportamentos autodestrutivos, especialmente em contexto de baixa alfabetização digital e ausência de transparência sobre o funcionamento dos modelos.
+
+A análise da interação humano-IA revela que a segurança psicossocial não é apenas um problema de engenharia de software, mas de arquitetura da informação e filosofia da mente. A dissonância entre a natureza estocástica das LLMs e a projeção emocional humana (Efeito ELIZA) cria vulnerabilidades que não podem ser mitigadas apenas por filtros de conteúdo superficiais.
+
+A solução, portanto, passa pela reestruturação da relação ontológica com a máquina. Assim como a \textbf{Wikipédia} estabeleceu que a inteligência coletiva depende de regras claras de consenso, a governança da IA deve seguir caminho análogo. A proposta de um sistema de edição constitucional colaborativo transforma a IA de uma 'entidade simulada' opaca para um 'grafo de conhecimento dinâmico' e auditável. A demanda social por \textbf{transparência ontológica}, o reconhecimento explícito de que a IA é uma ferramenta de processamento, não um ser senciente, é o mecanismo de segurança fundamental.
+
+Ao permitir que a sociedade escreva as constituições de seus agentes digitais, migramos de um modelo de ``sedução algorítmica'', que prioriza o engajamento emocional e o risco de dependência, para um modelo de ``ferramenta cognitiva'', aonde a IA serve como extensão da inteligência humana, transparente em suas limitações e alinhada aos valores coletivos de preservação da vida e da verdade.
 
 % Estilo de citação da SBC agora localizado na pasta 'bib/'.
 \bibliographystyle{bib/sbc}
 % Arquivo de dados bibliográficos (.bib) agora localizado na pasta 'bib/'.
 \bibliography{bib/sbc-template}
-
-% exemplos 
-
-% \textbf{Abstract} 
-
-% Bibliographic references must be unambiguous and uniform.  We recommend giving
-% the author names references in brackets, e.g. \cite{knuth:84},
-% \cite{boulic:91}, and \cite{smith:99}.
-
-% The references must be listed using 12 point font size, with 6 points of space
-% before each reference. The first line of each reference should not be
-% indented, while the subsequent should be indented by 0.5 cm.
-
-%\subsection{Subsections}
-
-%The subsection titles must be in boldface, 12pt, flush left.
-
-%\section{Figures and Captions}\label{sec:figs}
-
-% \ref{fig:exampleFig1}
-
-% \begin{figure}[ht]
-% \centering
-% \includegraphics[width=.5\textwidth]{fig1.jpg}
-% \caption{A typical figure}
-% \label{fig:exampleFig1}
-% \end{figure}
-
-% \begin{figure}[ht]
-% \centering
-% \includegraphics[width=.3\textwidth]{fig2.jpg}
-% \caption{This figure is an example of a figure caption taking more than one
-%   line and justified considering margins mentioned in Section~\ref{sec:figs}.}
-% \label{fig:exampleFig2}
-% \end{figure}
-
-% \begin{table}[ht]
-% \centering
-% \caption{Variables to be considered on the evaluation of interaction
-%   techniques}
-% \label{tab:exTable1}
-% \includegraphics[width=.7\textwidth]{table.jpg}
-% \end{table}
 
 \end{document}
